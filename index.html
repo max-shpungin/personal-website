@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link rel="stylesheet" href="styles.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My amazing personal website</title>
 </head>
+
 <body>
 
   <header>
     <nav>
-      <p><a href="#intro">Home</a></p>
-      <p><a href="#about me">About Me</a></p>
-      <p><a href="#contact">Contact</a></p>
+      <div id="menu-links">
+        <p><a href="#intro">Home</a></p>
+        <p><a href="#about me">About Me</a></p>
+        <p><a href="#contact">Contact</a></p>
+      </div>
+      <div id="socials">
+
+          <img src="files/github logo.png" alt="GitHub profile link">
+
+          <img src="files/Linkedin-logo-png.png" alt="LinkedIn profile link" >
+
+      </div>
+
     </nav>
   </header>
 
@@ -21,21 +33,33 @@
     <h3>legit the coolest fucker you've ever met</h3>
     <section id="intro">
       <img id='partay' src="files/partay.png" alt="extremely photogenic cat">
-      <p>So this is me</p>
-      <p><a href="files/Max_Shpungin_Resume.pdf">My Resume</a></p>
+      <ul>
+        <li>
+          <p>So this is me</p>
+        </li>
+        <li>
+          <p><a href="files/Max_Shpungin_Resume.pdf">My Resume</a></p>
+        </li>
+      </ul>
+
     </section>
 
     <h2>a bit about me</h2>
-    <section id="about me">
-      <p>I love my cat Chloe, video games, and my wife - not necessarily in that order. I've been a digital marketing analytics consultant for too many years, working for smaller and larger agencies in pretty much every role you can imagine from analyst to executive.</p>
+    <section id="aboutme">
+      <div class="container" id="text-area">
+        <p>I love my cat Chloe, video games, and my wife - not necessarily in that order. I've been a digital marketing analytics consultant for too many years, working for smaller and larger agencies in pretty much every role you can imagine from analyst to executive.</p>
+
       <p>I tried to study computer science once upon a time in college but I flunked out of school (actually, multiple schools - my amazing advice: don't skip classes and do your homework :)), but I've tinkered with Javascript throughout my career and I'm excited to really dive into the deep end again.</p>
+
       <p>Also I used to dance salsa competitively in a previous life and there is a weird amount of somewhat embarrassing video evidence on the internet.</p>
+      </div>
+      <img class="cropped" id="chloe" src="files/chloe.png" alt="an extremely photogenic cat">
 
     </section>
 
     <h2>get in touch</h2>
     <section id="contact">
-
+      <P>I have another site <a href="https://maxsconsulting.com">here</a> but I cheated with a wordpress template</P>
     </section>
   </main>
 

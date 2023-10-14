@@ -1,21 +1,51 @@
 body {
   display: flex;
   flex-direction: column;
-  background-color: #023047;
-  color: aliceblue;
-}
+ }
 nav {
-  display: flex;
-  color: #e9c46a;
-  gap: 10px;
+  border: 5px solid green;
+  padding: 15px;
+  display:flex;
+  justify-content: space-between;
 }
-
-#intro {
+ #menu-links {
+  border: 3px solid red;
   display: flex;
+  align-items: center;
+  gap: 1rem;
+ }
+ #socials {
+  border: 3px solid red;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+ }
+
+#socials > img {
+  width:5vw;
+  filter: grayscale(100%);
+  filter: contrast(0%);
+ }
+
+ #intro {
+  display: flex;
+  justify-content: center;
   gap: 10%;
 }
 
-img#partay {
+#intro > img#partay {
   width: 20%;
   border-radius: 10%;
+  order:1;
+}
+
+#aboutme {
+  display: flex;
+  padding: 15px;
+}
+
+img#chloe{
+  clip-path: circle();
+  width: 35%;
+  order: -1;
 }
