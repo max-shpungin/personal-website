@@ -1,4 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #023047;
+  color: aliceblue;
+}
 nav {
   display: flex;
-  justify-content: flex-start;
+  color: #e9c46a;
+  gap: 10px;
+}
+
+#intro {
+  display: flex;
+  gap: 10%;
+}
+
+img#partay {
+  width: 20%;
+  border-radius: 10%;
 }
