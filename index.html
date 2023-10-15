@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+  </style>
   <link rel="stylesheet" href="styles.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,34 +16,48 @@
   <header>
     <nav>
       <div id="menu-links">
-        <p><a href="#intro">Home</a></p>
-        <p><a href="#about me">About Me</a></p>
-        <p><a href="#contact">Contact</a></p>
+        <p><a href="#intro">home</a></p>
+        <p><a href="#about me">about me</a></p>
+        <p><a href="#contact">contact</a></p>
       </div>
       <div id="socials">
 
           <img src="files/github logo.png" alt="GitHub profile link">
 
           <img src="files/Linkedin-logo-png.png" alt="LinkedIn profile link" >
-
       </div>
 
     </nav>
   </header>
 
   <main>
-    <h1>Welcome! I'm the shit.</h1>
-    <h3>legit the coolest fucker you've ever met</h3>
+<section id="hero">
+  <div class="container">
+    <h1>&#128406; hey there, i'm max</h1>
+    <h2>digital analytics leader / aspiring developer</h2>
+    <div class="inner-container">
+      <img id="oakland" src="files/oakland.png" alt="oakland tree">
+      <h3>Oakland, CA</h3>
+    </div>
+  </div>
+</section>
+
+
+    <h2 id="transition">my career transition</h2>
     <section id="intro">
+
+      <div class="container">
+
+
+          <p>After an amazing few months of getting married and traveling, I've decided to embark on a new adventure: I will be attending the Rithm School full-stack web development program in November 2023.
+          </p>
+          <p>
+            Playing with Javascript and Python has been a not-so-secret passion of mine for a long time - these technologies are intertwined with the way the web (and therefore digital marketing and analytics!) work today. I'm so excited to fully pursue these areas of software and web development now as a formal part of my career journey :)
+          </p>
+
+          <p id="resume">&#128073; <a href="files/Max_Shpungin_Resume.pdf">check out my full resume here</a></p>
+      </div>
       <img id='partay' src="files/partay.png" alt="extremely photogenic cat">
-      <ul>
-        <li>
-          <p>So this is me</p>
-        </li>
-        <li>
-          <p><a href="files/Max_Shpungin_Resume.pdf">My Resume</a></p>
-        </li>
-      </ul>
 
     </section>
 
@@ -58,13 +75,20 @@
     </section>
 
     <h2>get in touch</h2>
-    <section id="contact">
-      <P>I have another site <a href="https://maxsconsulting.com">here</a> but I cheated with a wordpress template</P>
-    </section>
+    <div class="container">
+      <section id="contact">
+        <uo>
+          <li>I have another site
+            <a href="https://maxsconsulting.com">here</a>
+            but I cheated with a wordpress template</li>
+          <li>email me! max (at) maxsconsulting.com</li>
+        </uo>
+      </section>
+    </div>
   </main>
 
   <footer>
-
+    &#169; 2023 Max Shpungin
   </footer>
 
 </body>

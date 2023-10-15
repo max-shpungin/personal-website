@@ -1,21 +1,34 @@
-body {
-  display: flex;
-  flex-direction: column;
- }
 nav {
-  border: 5px solid green;
   padding: 15px;
   display:flex;
   justify-content: space-between;
 }
+
+#hero {
+  background-image: url(files/funsies3.png);
+  background-size: cover;
+  background-position: 0% 30% ;
+  color: #ffa825;
+ }
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #020108;
+  color: #ece6e6;
+  font-family: 'Roboto', sans-serif;
+ }
+
  #menu-links {
-  border: 3px solid red;
   display: flex;
   align-items: center;
-  gap: 1rem;
+
+ }
+ #menu-links > p {
+  border: 1px solid rgba(66, 64, 64, 0.911);
+  border-radius: 10%;
  }
  #socials {
-  border: 3px solid red;
   display: flex;
   align-items: center;
   gap: 5%;
@@ -23,20 +36,30 @@ nav {
 
 #socials > img {
   width:5vw;
-  filter: grayscale(100%);
-  filter: contrast(0%);
+  filter: brightness(0) invert(1);
  }
+
+
 
  #intro {
   display: flex;
   justify-content: center;
-  gap: 10%;
+  gap: 2%;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
-#intro > img#partay {
-  width: 20%;
+
+#resume {
+  margin-left: auto;
+}
+
+img#partay {
+  width: 22%;
   border-radius: 10%;
   order:1;
+  min-width: none;
+  align-self: center;
 }
 
 #aboutme {
@@ -48,4 +71,42 @@ img#chloe{
   clip-path: circle();
   width: 35%;
   order: -1;
+  align-self: center;
 }
+
+img#oakland{
+  width:20%;
+  filter: brightness(0) invert(1);
+}
+
+div.container {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+div.inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 10px;
+}
+
+footer{
+  display:flex;
+  justify-content: flex-end;
+}
+
+/*fonts*/
+
+h2:not(#hero h2) {
+  color: #FBED24;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #FBED24;
+}
+
