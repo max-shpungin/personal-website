@@ -5,10 +5,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
+
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My amazing personal website</title>
+  <link rel="icon" type="image/x-icon" href="files/favicon.ico">
 </head>
 
 <body>
@@ -16,37 +20,49 @@
   <header>
     <nav>
       <div id="menu-links">
-        <p><a href="#intro">home</a></p>
+        <p><a href="#intro">home</p>
         <p><a href="#aboutme">about me</a></p>
         <p><a href="#contact">contact</a></p>
       </div>
       <div id="socials">
 
+        <a href="https://github.com/max-shpungin">
           <img src="files/github logo.png" alt="GitHub profile link">
+        </a>
 
+        <a href="https://www.linkedin.com/in/maxshpungin/">
           <img src="files/Linkedin-logo-png.png" alt="LinkedIn profile link" >
-      </div>
+        </a>
 
+      </div>
     </nav>
+
+    <hr>
   </header>
 
   <main>
 <section id="hero">
-  <div class="container">
+
+  <div class="text-container" id="text-area">
     <h1>&#128406; hey there, i'm max</h1>
-    <h2>digital analytics leader / aspiring developer</h2>
-    <div class="inner-container">
+    <h2>aspiring developer / digital analytics leader</h2>
       <img id="oakland" src="files/oakland.png" alt="oakland tree">
       <h3>Oakland, CA</h3>
-    </div>
   </div>
+
+  <div class="image-container">
+    <img id='partay' src="files/partay.png" alt="extremely photogenic family">
+  </div>
+
 </section>
+
+  <div class="main-body-container"></div>
 
 
     <h2 id="transition">my career transition</h2>
     <section id="intro">
 
-      <div class="container">
+      <div class="text-container">
 
 
           <p>After an amazing few months of getting married and traveling, I've decided to embark on a new adventure: I will be attending the Rithm School full-stack web development program in November 2023.
@@ -57,13 +73,13 @@
 
           <p id="resume">&#128073; <a href="files/Max_Shpungin_Resume.pdf">check out my full resume here</a></p>
       </div>
-      <img id='partay' src="files/partay.png" alt="extremely photogenic cat">
 
     </section>
 
     <h2>a bit about me</h2>
     <section id="aboutme">
-      <div class="container" id="text-area">
+
+      <div class="text-container" id="text-area">
         <p>I love my cat Chloe, video games, and my wife - not necessarily in that order. I've been a digital marketing analytics consultant for too many years, working for smaller and larger agencies in pretty much every role you can imagine from analyst to executive.</p>
 
       <p>I tried to study computer science once upon a time in college but I flunked out of school (actually, multiple schools - my amazing advice: don't skip classes and do your homework :)), but I've tinkered with Javascript throughout my career and I'm excited to really dive into the deep end again.</p>
@@ -75,20 +91,39 @@
     </section>
 
     <h2>get in touch</h2>
-    <div class="container">
-      <section id="contact">
+    <section id="contact">
+      <div class="text-container">
         <uo>
-          <li>I have another site
+          <li>I have another site &#128073;
             <a href="https://maxsconsulting.com">here</a>
             but I cheated with a wordpress template</li>
           <li>email me! max (at) maxsconsulting.com</li>
         </uo>
-      </section>
-    </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <h2>matters of great import</h2>
+    <section id="musings">
+      <div class="text-container">
+
+        <p> Tacos are a terrible vehicle for food. I'm not talking about the ingredients that go inside, it's just a terrible format. It's supposed to be "street food" but no one really walks around eating tacos - they are way too messy and get everywhere.
+
+        Burritos are a far superior format because they are enclosed.</p>
+
+        <p> Baldur's Gate 3 was good for what it was, but it felt like a very narrow experience compared to the sense of scale and adventure evoked by the older Baldur's Gate games. Also the stories of the side companions all felt far too consequential and high stakes - it created a lack of believability in the world and scenario for me that was not present in BG1 for example.</p>
+
+        <p>Starfield was.... okay. I'm still waiting for a game that recreates the spirit of the original wing commander: privateer. It was marketed as a space exploration game, and it just isn't. Also they made space exploration boring somehow.</p>
+
+      </div>
+    </section>
+
   </main>
+</div>
 
   <footer>
-    &#169; 2023 Max Shpungin
+   <p>&#169; 2023 Max Shpungin</p>
   </footer>
 
 </body>
