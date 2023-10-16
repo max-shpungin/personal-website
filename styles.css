@@ -109,11 +109,11 @@ img#oakland{
   padding-right: 20px;
 }
 
-#aboutme {
+#about-me {
   display: flex;
 }
 
-#aboutme > .text-container {
+#about-me > .text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
